@@ -32,11 +32,11 @@ def pipeline():
         sleep(2)
 
     t1 = primeira_tarefa()
-    t2 = primeira_tarefa()
-    t3 = primeira_tarefa()
+    t2 = segunda_tarefa()
+    t3 = terceira_tarefa()
     t4 = quarta_tarefa()
 
     t1>>t2>>t3>>t4
-    
+
 pipeline()
 
